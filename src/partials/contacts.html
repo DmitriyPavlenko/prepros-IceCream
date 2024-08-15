@@ -1,0 +1,141 @@
+<section id="contacts-section" class="section contacts-section">
+  <div class="container contacts-container">
+    <div class="contacts-wrap">
+      <h2 class="visually-hidden">Contacts</h2>
+      <ul class="contacts__list list-no-ls">
+        <li class="contacts-item">
+          <p class="contacts-item__subject">CAFE</p>
+          <h3 class="contacts-item__title">Chicago</h3>
+          <p class="contacts-item__text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+          <ul class="contacts-item__schedule-list list-no-ls">
+            <li class="contacts-item__schedule-item">
+              <p class="contacts-item__schedule-title">Monday - Friday</p>
+              <p class="contacts-item__schedule-time">06:00 AM - 10:00 PM</p>
+            </li>
+            <li class="contacts-item__schedule-item">
+              <p class="contacts-item__schedule-title">Saturday - Sunday</p>
+              <p class="contacts-item__schedule-time">08:00 AM - 16:00 PM</p>
+            </li>
+          </ul>
+          <div class="contacts-link">
+            <a class="link-no-tdn contacts-link__tel" href="tel:+610383766284"
+              >+61(0) 383 766 284</a
+            >
+            <a class="link-no-tdn contacts-link__mail" href="mailto:noreply@envato.com"
+              >noreply@envato.com</a
+            >
+          </div>
+        </li>
+        <li class="contacts-item">
+          <p class="contacts-item__subject green">FOOD TRUCK</p>
+          <p class="contacts-item__title">Los Angeles</p>
+          <p class="contacts-item__text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+          <ul class="contacts-item__schedule-list list-no-ls">
+            <li class="contacts-item__schedule-item">
+              <p class="contacts-item__schedule-title">Monday - Friday</p>
+              <p class="contacts-item__schedule-time">06:00 AM - 10:00 PM</p>
+            </li>
+            <li class="contacts-item__schedule-item">
+              <p class="contacts-item__schedule-title">Saturday - Sunday</p>
+              <p class="contacts-item__schedule-time">08:00 AM - 16:00 PM</p>
+            </li>
+          </ul>
+          <div class="contacts-link">
+            <a class="link-no-tdn contacts-link__tel" href="tel:+610383766284"
+              >+61(0) 383 766 284</a
+            >
+            <a class="link-no-tdn contacts-link__mail" href="mailto:noreply@envato.com"
+              >noreply@envato.com</a
+            >
+          </div>
+        </li>
+        <li class="contacts-item">
+          <p class="contacts-item__subject">CAFE</p>
+          <h3 class="contacts-item__title">New York</h3>
+          <p class="contacts-item__text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+          <ul class="contacts-item__schedule-list list-no-ls">
+            <li class="contacts-item__schedule-item">
+              <p class="contacts-item__schedule-title">Monday - Friday</p>
+              <p class="contacts-item__schedule-time">06:00 AM - 10:00 PM</p>
+            </li>
+            <li class="contacts-item__schedule-item">
+              <p class="contacts-item__schedule-title">Saturday - Sunday</p>
+              <p class="contacts-item__schedule-time">08:00 AM - 16:00 PM</p>
+            </li>
+          </ul>
+          <div class="contacts-link">
+            <a class="link-no-tdn contacts-link__tel" href="tel:+610383766284"
+              >+61(0) 383 766 284</a
+            >
+            <a class="link-no-tdn contacts-link__mail" href="mailto:noreply@envato.com"
+              >noreply@envato.com</a
+            >
+          </div>
+        </li>
+      </ul>
+      <div class="contacts-btn">
+        <button class="contants-btn__btn contacts-btn--pink" type="button">
+          Our Locations
+          <svg class="contacts-btn__icon-pink" width="8" height="16">
+            <use href="./images/sprite.svg#icon-small-arrow"></use>
+          </svg>
+        </button>
+        <button class="contants-btn__btn contacts-btn--white" type="button" franchise-modal-open>
+          Franchise
+          <svg class="contacts-btn__icon-white" width="8" height="16">
+            <use href="./images/sprite.svg#icon-small-arrow"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-contacts is-hidden-modal" franchise-modal>
+    <div class="modal-contacts__body">
+      <div class="modal-contacts__content">
+        <div class="modal-contacts__close link-no-tdn" franchise-modal-close>X</div>
+        <div class="modal-contacts__title">Franchise</div>
+        <div class="modal-contacts__form">
+          <p class="modal-contacts__title2">Your contact details</p>
+          <div>
+            <form action="#">
+              <label class="modal-contacts__label">
+                Name
+                <span class="modal-contacts__wrapper"
+                  ><input
+                    class="modal-contacts__input"
+                    type="text"
+                    name="name"
+                    placeholder="Den  "
+                  />
+                </span>
+              </label>
+              <label class="modal-contacts__label">
+                Phone
+                <span class="modal-contacts__wrapper">
+                  <input
+                    class="modal-contacts__input"
+                    type="tel"
+                    name="tel"
+                    placeholder="+61(0) 123 456 789 " /></span
+              ></label>
+              <label class="modal-contacts__label">
+                Mail
+                <span class="modal-contacts__wrapper">
+                  <input
+                    class="modal-contacts__input"
+                    type="email"
+                    name="email"
+                    placeholder="Den@gmail.com"
+                  /> </span
+              ></label>
+              <button type="button" class="contants-btn__btn contacts-btn--white centr">
+                Отправить
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
